@@ -1,5 +1,5 @@
 import axios from "axios";
-const API = "http://localhost:5000/api";
+const API = "https://vibe-cart-u76u.onrender.com/api";
 
 export const getProducts = () => axios.get(`${API}/products`);
 export const getCart = () => axios.get(`${API}/cart`);
